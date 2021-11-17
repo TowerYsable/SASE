@@ -33,26 +33,3 @@
 ### 4. Generate wav files and evaluate
 
 - python main.py -g --resume "model_file" -df "wavs_root"
-
-## Network Structure
-
-<img src="./Readme.assets/3.1_network.png" alt="3.1_network" style="zoom: 33%;" />
-
-### 1. TF-SA
-
-<img src="./Readme.assets/3.2_TFGA.png" alt="3.2_TFGA" style="zoom: 50%;" />
-
-### 2. SA-GOEA and SA-GUEA
-
-- SA-GOEA
-
-<img src="./Readme.assets/3.3_SA-GOEA.png" alt="3.3_SA-GOEA" style="zoom: 67%;" />
-
-- SA-GUEA
-
-<img src="./Readme.assets/3.4_SA-GUEA.png" alt="3.4_SA-GUEA" style="zoom: 33%;" />
-
-### 3. FL 
-
-<img src="./Readme.assets/4.1_FL.png" alt="4.1_FL" style="zoom:50%;" />
-
