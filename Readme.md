@@ -18,8 +18,6 @@
 - VoiceBank+DEMAND can be accessed from this [link]([## SUPERSEDED: THIS DATASET HAS BEEN REPLACED. ## Noisy speech database for training speech enhancement algorithms and TTS models](https://datashare.ed.ac.uk/handle/10283/1942?show=full))
 - CommonVoice(Chinese) [link](https://commonvoice.mozilla.org/zh-CN/datasets) +Noise92 [link]([NOISEX (cmu.edu)](http://www.speech.cs.cmu.edu/comp.speech/Section1/Data/noisex.html))
 
-> The data processing code will be compiled and made public as soon as possible.
-
 ### 2. Train on the VoiceBank+DEMAND dataset
 
 - python main.py
@@ -33,3 +31,13 @@
 ### 4. Generate wav files and evaluate
 
 - python main.py -g --resume "model_file" -df "wavs_root"
+
+## Result
+
+### 1. Evaluate on VoiceBank+DEMAND dataset
+
+<img src="Readme.assets/5.2_vb_mixed.png" alt="5.2_vb_mixed" style="zoom:33%;" /><img src="Readme.assets/5.3_vb_en.png" alt="5.3_vb_en" style="zoom:33%;" /><img src="Readme.assets/5.1_vb_clean.png" alt="5.1_vb_clean" style="zoom:33%;" />
+
+### 2. Evaluate on CommonVoice+Noise92 dataset
+
+ <img src="Readme.assets/5.4_cv_clean.png" alt="5.4_cv_clean" style="zoom:33%;" /><img src="Readme.assets/5.5_cv_mixed.png" alt="5.5_cv_mixed" style="zoom:33%;" /><img src="Readme.assets/5.6_cv_en.png" alt="5.6_cv_en" style="zoom:33%;" />
