@@ -36,8 +36,8 @@
 
 ### 1. Evaluate on VoiceBank+DEMAND dataset
 
-<img src="Readme.assets/5.2_vb_mixed.png" alt="5.2_vb_mixed" style="zoom:33%;" /><img src="Readme.assets/5.3_vb_en.png" alt="5.3_vb_en" style="zoom:33%;" /><img src="Readme.assets/5.1_vb_clean.png" alt="5.1_vb_clean" style="zoom:33%;" />
+![image-20211117140018001](Readme.assets/image-20211117140018001.png)
 
 ### 2. Evaluate on CommonVoice+Noise92 dataset
 
- <img src="Readme.assets/5.4_cv_clean.png" alt="5.4_cv_clean" style="zoom:33%;" /><img src="Readme.assets/5.5_cv_mixed.png" alt="5.5_cv_mixed" style="zoom:33%;" /><img src="Readme.assets/5.6_cv_en.png" alt="5.6_cv_en" style="zoom:33%;" />
+![image-20211117140035056](Readme.assets/image-20211117140035056.png)
