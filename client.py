@@ -21,7 +21,6 @@ if __name__ == "__main__":
     parser.add_argument(
         "--server_address",
         type=str,
-        # default="[::]:9999",
         default="localhost:8080",
         help=f"gRPC server address (default: '[::]:8080')",
     )
@@ -60,9 +59,6 @@ if __name__ == "__main__":
     # Load MNIST data
     train_loader, test_loader = load_data(args)
 
-    # pylint: disable=no-member
-    # device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    # pylint: enable=no-member
     model = set_model(args, mode='CL')
 
     if not torch.cuda.is_available():
@@ -73,8 +69,6 @@ if __name__ == "__main__":
         model = model.cuda(args.gpu)
     else:
         model = torch.nn.DataParallel(model).cuda()
-    # model.to(device)
-    # Instantiate client
     client = NetClient(model,train_loader,test_loader)
 
     # Start client
